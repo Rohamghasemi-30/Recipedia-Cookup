@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from '../components/Navbar';
 import Header from '../components/Header';
 import PopularRecepies from '../components/PopularRecepies';
 import AbourUsSection from '../components/AbourUsSection';
 import DownloadSection from '../components/DownloadSection';
 import Footer from '../components/Footer';
+import SectionPost from '../components/SectionPost';
 
 function Home() {
   return (
@@ -12,6 +12,7 @@ function Home() {
        <Header/>
        <PopularRecepies/>
        <AbourUsSection />
+       <SectionPost />
        <DownloadSection />
        <Footer />
     </div>
